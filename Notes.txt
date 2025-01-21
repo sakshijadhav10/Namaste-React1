@@ -1,0 +1,17 @@
+JSX:
+It is not html in javascript
+It is HTML like or XML like syntax
+
+JS Engine understand Ecmascript language
+JSX(transpiled code before it reaches the 
+JS engine)
+transpiling is done by parcel which gives this responsibility to babel which is one of the package
+Babel-covert code that browser understand
+JSX =>React.createElement=>ReactElement-JS Object=>HTMLElement(render)
+for attribute use camelCase
+how to use different attribute in jsx
+
+React Component
+1.Class based component -old way of writing code 
+2.Functional component-new way
+    -normal js function which returns jsx code
