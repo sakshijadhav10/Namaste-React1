@@ -14,4 +14,28 @@ how to use different attribute in jsx
 React Component
 1.Class based component -old way of writing code 
 2.Functional component-new way
-    -normal js function which returns jsx code
+    -normal js function which returns jsx code or Js function which return react element
+
+element-
+Components-
+
+Component composition-
+    -combining/composing two or more components into one another
+
+    you can inject any javascript inside {}
+
+Food Delivery App
+
+Components:
+1.Header:
+-logo,
+-nav-items
+2.Body:
+-Search bar,
+-card container-restaurant-card
+3.Footer:
+-copyright,
+-links,
+-address,
+-contact
+
