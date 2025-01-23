@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client"
 import '/index.css'
-
+import { Button, IconButton } from "@mui/material";
  
 
 const ele=<span>React Element</span>
@@ -12,6 +12,9 @@ const HeadingComp=()=>{
     return(
         <>
         <div>
+        {/* <IconButton></IconButton> */}
+        
+        <Button variant="contained">Hello world</Button>
         {Title()}
         <Title/>
         <h2>{number}</h2>
